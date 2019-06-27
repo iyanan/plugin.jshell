@@ -13,9 +13,9 @@ import org.apache.sshd.server.Environment;
 import org.apache.sshd.server.ExitCallback;
 import org.apache.sshd.server.command.Command;
 
-import com.YaNan.frame.path.ResourceManager;
 import com.YaNan.frame.plugin.PlugsFactory;
 import com.YaNan.frame.shell.command.CommandListener;
+import com.YaNan.frame.utils.resource.ResourceManager;
 
 /**
  * @author Apache MINA SSHD Project

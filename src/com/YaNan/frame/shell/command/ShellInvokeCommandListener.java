@@ -10,9 +10,9 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import com.YaNan.frame.path.ResourceManager;
 import com.YaNan.frame.plugin.annotations.Register;
-import com.YaNan.frame.reflect.ClassLoader;
+import com.YaNan.frame.utils.reflect.ClassLoader;
+import com.YaNan.frame.utils.resource.ResourceManager;
 import com.YaNan.frame.shell.EchoShellFactory;
 import com.YaNan.frame.shell.EchoShellFactory.EchoShell;
 import com.YaNan.frame.shell.ansi.AnsiWrapper;

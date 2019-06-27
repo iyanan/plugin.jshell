@@ -6,18 +6,17 @@ import java.util.Iterator;
 import java.util.List;
 
 
-import com.YaNan.frame.path.ResourceManager;
 import com.YaNan.frame.plugin.PlugsFactory;
 import com.YaNan.frame.plugin.annotations.Register;
 import com.YaNan.frame.shell.EchoShellFactory;
 import com.YaNan.frame.shell.EchoShellFactory.EchoShell;
+import com.YaNan.frame.utils.resource.ResourceManager;
 
 @Register(attribute= {"cd"})
 public class ShellPathCommandListener implements CommandListener{
 	private EchoShell shell;
 	@Override
 	public void accept(String command) {
-		System.out.println("路径命令："+command);
 	}
 
 	@Override
